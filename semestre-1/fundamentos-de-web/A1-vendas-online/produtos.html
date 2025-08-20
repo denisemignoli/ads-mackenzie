@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechStore - Explore nossa seleção de smartphones, notebooks e acessórios de última geração">
+    <title>Produtos - TechStore</title>
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/logo.jpg" alt="Logo TechStore" width="150">
+                </a>
+            </div>
+
+            <form class="search-form" action="#" method="get" role="search">
+                <input type="search" placeholder="Buscar produtos" name="search" aria-label="Buscar produtos">
+                <button type="submit" aria-label="Realizar busca">Buscar</button>
+            </form>
+
+            <nav class="user-actions" aria-label="Ações do usuário">
+                <ul>
+                    <li>
+                        <a href="carrinho.html">
+                            <span class="icon-cart" aria-hidden="true"></span>
+                            Carrinho
+                        </a>
+                    </li>
+                    <li>
+                        <a href="conta.html">
+                            <span class="icon-user" aria-hidden="true"></span>
+                            Minha Conta
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <nav class="main-nav" aria-label="Navegação principal">
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="produtos.html" aria-current="page">Nossos Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Nossos Produtos</h1>
+            <p class="page-description">Produtos de alta qualidade com o melhor preço do mercado.</p>
+        </section>
+
+        <section class="product-category" aria-labelledby="smartphones-title">
+            <h2 id="smartphones-title">Smartphones</h2>
+            <div class="product-grid">
+                <article class="product-card">
+                    <img src="assets/produto1.png" alt="Smartphone modelo Xiaomi Mi 10 Ultra" width="300">
+                    <div class="product-info">
+                        <h3>Smartphone Xiaomi Mi 10 Ultra</h3>
+                        <p>O smartphone mais rápido do mercado, com zoom de 120x e recarga de 120W.</p>
+                        <button type="button" class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="product-category" aria-labelledby="notebooks-title">
+            <h2 id="notebooks-title">Notebooks</h2>
+            <div class="product-grid">
+                <article class="product-card">
+                    <img src="assets/produto2.png" alt="Notebook modelo Samsung X50" width="300">
+                    <div class="product-info">
+                        <h3>Notebook Samsung X50</h3>
+                        <p>Ideal para trabalho e estudos, com processador de última geração e 16GB de RAM.</p>
+                        <button type="button" class="btn-comprar">Adicionar ao Carrinho</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="product-review" aria-labelledby="review-title">
+            <h2 id="review-title">Review do Smartphone Xiaomi Mi 10 Ultra</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EPoAxqkXBDg?si=W4N0eeKmGxqmmkm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <nav class="footer-nav" aria-label="Links do rodapé">
+                <div class="footer-section">
+                    <h3>Institucional</h3>
+                    <ul>
+                        <li><a href="sobre.html">Sobre nós</a></li>
+                        <li><a href="termos.html">Termos de uso</a></li>
+                        <li><a href="privacidade.html">Política de privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Atendimento</h3>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contato.html">Fale conosco</a></li>
+                        <li><a href="trocas.html">Trocas e devoluções</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p class="copyright">&copy; 2025 TechStore - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

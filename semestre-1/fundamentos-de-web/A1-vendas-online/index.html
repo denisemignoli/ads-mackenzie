@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="TechStore - Sua loja de tecnologia com os melhores eletrônicos, smartphones, notebooks e acessórios">
+    <title>TechStore - Sua Loja de Tecnologia</title>
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/logo.jpg" alt="Logo TechStore" width="150">
+                </a>
+            </div>
+
+            <form class="search-form" action="#" method="get" role="search">
+                <input type="search" placeholder="Buscar produtos" name="search" aria-label="Buscar produtos">
+                <button type="submit" aria-label="Realizar busca">Buscar</button>
+            </form>
+
+            <nav class="user-actions" aria-label="Ações do usuário">
+                <ul>
+                    <li>
+                        <a href="carrinho.html">
+                            <span class="icon-cart" aria-hidden="true"></span>
+                            Carrinho
+                        </a>
+                    </li>
+                    <li>
+                        <a href="conta.html">
+                            <span class="icon-user" aria-hidden="true"></span>
+                            Minha Conta
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Navegação principal -->
+        <nav class="main-nav" aria-label="Navegação principal">
+            <ul>
+                <li><a href="index.html" aria-current="page">Página Inicial</a></li>
+                <li><a href="produtos.html">Nossos Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <h1>Bem-vindo à TechStore!</h1>
+            <p class="hero-text">
+                Na TechStore, você encontra a mais alta tecnologia em smartphones, notebooks e acessórios.
+                Navegue pelos nossos produtos e aproveite nossas ofertas exclusivas!
+            </p>
+        </section>
+
+        <section class="featured-products" aria-labelledby="featured-title">
+            <h2 id="featured-title">Lançamento Imperdível!</h2>
+            <article class="product-highlight">
+                <img src="assets/banner.jpg" alt="Banner promocional de um novo notebook" width="600">
+            </article>
+        </section>
+
+        <section class="promo-video" aria-labelledby="video-title">
+            <h2 id="video-title">Confira nosso vídeo promocional</h2>
+            <p>Veja em ação os produtos que você só encontra aqui.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/V1BFe42Q26Q?si=m92jM0Mx6zUYnR-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <nav class="footer-nav" aria-label="Links do rodapé">
+                <div class="footer-section">
+                    <h3>Institucional</h3>
+                    <ul>
+                        <li><a href="sobre.html">Sobre nós</a></li>
+                        <li><a href="termos.html">Termos de uso</a></li>
+                        <li><a href="privacidade.html">Política de privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Atendimento</h3>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contato.html">Fale conosco</a></li>
+                        <li><a href="trocas.html">Trocas e devoluções</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p class="copyright">&copy; 2025 TechStore - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
